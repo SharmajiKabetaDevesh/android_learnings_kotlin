@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">UTS.</string>
+    <string name="enter_source">Enter Source</string>
+    <string name="save_data">Save Data</string>
+    <string name="clear_data">Clear DAta</string>
+</resources>
