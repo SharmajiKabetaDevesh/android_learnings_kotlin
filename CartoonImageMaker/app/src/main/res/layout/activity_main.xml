@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:ignore="UseCompoundDrawables">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="-30dp"
+        android:text="@string/our_kawaii_superman"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#10E1C8"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:src="@drawable/imgdata"
+    tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/make_a_cartoon_of_yourself"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="TextSizeCheck" />
+
+</LinearLayout>

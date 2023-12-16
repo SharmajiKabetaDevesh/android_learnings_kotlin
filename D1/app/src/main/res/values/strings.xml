@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">D1</string>
+    <string name="welcome_sign_up_to_continue">Welcome,Sign Up to Continue</string>
+    <string name="enter_your_mail_address">Enter your mail address</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="enter_your_uniqueid">Enter your uniqueId</string>
+    <string name="sign_up">Sign Up</string>
+</resources>

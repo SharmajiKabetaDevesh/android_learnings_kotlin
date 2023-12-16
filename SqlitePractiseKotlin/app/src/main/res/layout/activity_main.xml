@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/learning_sqlite_for_storage"
+        android:textSize="27sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#D3CACA"
+        >
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#fff"
+            android:drawableStart="@drawable/baseline_airline_seat_recline_normal_24"
+            android:id="@+id/name"
+            android:hint="@string/enter_your_name"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:drawableStart="@drawable/baseline_123_24"
+            android:id="@+id/number"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:autofillHints="none"
+            android:background="#fff"
+            android:textAlignment="center"
+            android:hint="@string/enter_your_number"
+            android:inputType="number" />
+
+
+        <Button
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="50dp"
+            android:background="@drawable/backbutton"
+            android:text="@string/press_to_add_contact"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:id="@+id/addbutton"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/all_the_contacts_present"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mainbackground">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="-80dp"
+        android:text="@string/logging_in"
+        android:textAlignment="center"
+        android:textColor="#3E2723"
+        android:textSize="50sp"
+        tools:ignore="TextSizeCheck"
+        />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:hint="@string/email"
+        android:textColorHint="#000000"
+       android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/textbackground"
+        android:layout_marginBottom="20dp"
+         />
+
+    <EditText
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:hint="@string/password"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:background="@drawable/textbackground"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:text="@string/press_to_enter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+         android:background="@drawable/greybackground"
+        />
+</LinearLayout>

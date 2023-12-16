@@ -1,12 +1,18 @@
 package com.example.trial2kotlin
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import androidx.annotation.RequiresApi
+import kotlinx.android.synthetic.main.activity_main2.webView
 
 
 import com.example.trial2kotlin.R.layout.activity_main2 as activity_main21
 
 class MainActivity2 : AppCompatActivity() {
+    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(/* layoutResID = */ activity_main21)
@@ -28,7 +34,29 @@ class MainActivity2 : AppCompatActivity() {
 
 
 
+        webViewSetup(webView)
+
+
 
 
     }
+
+    private fun webViewSetup(webView: WebView) {
+        webView.webViewClient = WebViewClient()
+
+        webView.apply {
+            settings.javaScriptEnabled = true
+
+            // Check if the current Android version is Oreo or higher
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                // Check if the method is available before calling it
+                if (settings.safeBrowsingEnabled) {
+                    settings.safeBrowsingEnabled = true
+                }
+            }
+
+            loadUrl("https://github.com/SharmajiKabetaDevesh/android_learnings_kotlin")
+        }
+    }
+
 }

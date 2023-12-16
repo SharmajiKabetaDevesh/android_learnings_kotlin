@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.theme.MainActivity2">
+
+<View
+    android:id="@+id/top_view"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bg_view"/>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/top_view"
+        android:layout_marginTop="-150dp">
+
+        <Button
+            android:id="@+id/butn1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="@string/android"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07" />
+
+        <Button
+            android:id="@+id/butn2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="@string/web"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.071" />
+
+        <Button
+            android:id="@+id/butn3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="@string/ios"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/butn4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="@string/web3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/butn5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="@string/blockchain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.906" />
+
+        <Button
+            android:id="@+id/butn6"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="@string/ml"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.869"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.906" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<Button
+    android:layout_below="@+id/constraint"
+  android:layout_width="150dp"
+    android:layout_marginLeft="130dp"
+    android:layout_height="60dp"
+    android:text="@string/call_us"
+    android:textSize="30sp"
+    android:background="#157EDA"
+    android:id="@+id/CallMe"/>
+</RelativeLayout>

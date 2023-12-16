@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alert Box Trials"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TYpe 1"
+        android:id="@+id/but1"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/teal_200"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TYpe 2"
+        android:id="@+id/but2"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/teal_200"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="TYpe 3"
+        android:id="@+id/but3"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:background="@color/teal_200"
+        />
+</LinearLayout>

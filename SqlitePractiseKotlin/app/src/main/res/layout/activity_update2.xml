@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/textvciewback">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/textvciewback"
+        android:text="@string/update_contact"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/nameupdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/textvciewback"
+        android:text="@string/name_devesh_r_sharma"
+        android:textAlignment="viewStart"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/numberupdate"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/textvciewback"
+        android:text="@string/number_7738874661"
+        android:textAlignment="viewStart"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/update"
+            android:textStyle="bold"
+            android:textColor="#E10A0A"
+            android:id="@+id/updatebutton"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:id="@+id/cancelbutton"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+</LinearLayout>

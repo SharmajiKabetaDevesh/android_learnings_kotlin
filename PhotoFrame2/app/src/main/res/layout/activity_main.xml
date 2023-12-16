@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Photo Frame"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pic11"
+        android:id="@+id/imagechange"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Ganpati Bappa Morya"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textchange"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/backward"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg"
+            android:contentDescription="1"
+            android:src="@drawable/baseline_arrow_back_24"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+        <ImageButton
+            android:id="@+id/forward"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bg"
+            android:src="@drawable/baseline_arrow_forward_24"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck"
+            android:contentDescription="2" />
+
+    </LinearLayout>
+
+</LinearLayout>

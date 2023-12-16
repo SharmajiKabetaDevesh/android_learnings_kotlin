@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cartoon Image Maker</string>
+    <string name="make_a_cartoon_of_yourself">Cartoonistic Image Maker</string>
+    <string name="our_kawaii_superman">Our Kawaii SuperMan</string>
+    <string name="previewimage">previewimage</string>
+    <string name="buttontext">Press to convert</string>
+</resources>

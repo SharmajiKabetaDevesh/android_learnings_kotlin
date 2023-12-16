@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/baseline_person_24"
+
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign Up kar Lo Yaro"
+    android:textAlignment="center"
+    android:textSize="30sp"
+    android:textStyle="bold"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/teal_200"
+        android:inputType="textPersonName"
+        android:hint="Enter your Name"
+        android:textAlignment="center"
+        android:id="@+id/name"
+        android:drawableEnd="@drawable/baseline_person_24" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/teal_200"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your email"
+        android:textAlignment="center"
+        android:id="@+id/email"
+        android:drawableEnd="@drawable/baseline_email_24" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/teal_200"
+        android:inputType="phone"
+        android:hint="Enter your phone number"
+        android:textAlignment="center"
+        android:id="@+id/number"
+        android:drawableEnd="@drawable/baseline_contact_phone_24" />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="#00EF80"
+        android:id="@+id/signup"
+        android:text="Sign Up"
+        android:textSize="40sp"/>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="TODO"
+        android:gravity="center"
+        android:src="@drawable/baseline_check_circle_outline_24"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="World is cruel for everyone Not only you"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is the Android Journey Going well"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="5dp"
+            android:background="#FF4343"
+            android:text="Bohot Worse"
+            android:textColor="#263238"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/badbut"
+            tools:ignore="TextSizeCheck" />
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="Ekdum Sahi"
+            android:background="#57DA10"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/goodbut"/>
+    </LinearLayout>
+</LinearLayout>

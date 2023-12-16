@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sqlite Practise Kotlin</string>
+    <string name="learning_sqlite_for_storage">Learning SqLite for Storage</string>
+    <string name="enter_your_number">Enter your Number</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="press_to_add_contact">Press to add contact</string>
+    <string name="all_the_contacts_present">All the Contacts Present</string>
+    <string name="name_devesh_r_sharma">Name: Devesh R Sharma</string>
+    <string name="number_7738874661">Number: 7738874661</string>
+    <string name="update_contact">Update Contact</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

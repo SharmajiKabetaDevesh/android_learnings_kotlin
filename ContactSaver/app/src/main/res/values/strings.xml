@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ContactSaver</string>
+    <string name="todo">TODO</string>
+    <string name="enter_contact_details">Enter Contact Details</string>
+    <string name="enter_contact_name">Enter Contact Name</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="click_to_save">Click to save</string>
+</resources>

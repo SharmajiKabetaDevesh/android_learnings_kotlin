@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="android">Android Dev</string>
+    <string name="web">Web Dev</string>
+    <string name="ios">IOs Dev</string>
+    <string name="blockchain">Block Chain</string>
+    <string name="ml">Machine
+        Learning</string>
+    <string name="web3">Web 3</string>
+    <string name="data">Welcome to SHarmaji Gyan Bhandar ! Aaaoo Aur marwao</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="android_dev">Android Dev</string>
+    <string name="todo2">TODO</string>
+    <string name="call_us">Call us</string>
+    <string name="details">Before learning all topics of android, it is required to know what is android.
+
+Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones.
+
+It is developed by Google and later the OHA (Open Handset Alliance). Java language is mainly used to write the android code even though other languages can be used.
+
+The goal of android project is to create a successful real-world product that improves the mobile experience for end users.
+    What is Open Handset Alliance (OHA)
+ It\'s a consortium of 84 companies such as google, samsung, AKM, synaptics, KDDI, Garmin, Teleca, Ebay, Intel etc.
+
+It was established on 5th November, 2007, led by Google. It is committed to advance open standards, provide services and deploy handsets using the Android Plateform.
+    Features of Android
+After learning what is android, let's see the features of android. The important features of android are given below:
+
+1) It is open-source.
+
+2) Anyone can customize the Android Platform.
+    3) There are a lot of mobile applications that can be chosen by the consumer.
+
+4) It provides many interesting features like weather details, opening screen, live RSS (Really Simple Syndication) feeds etc.
+
+It provides support for messaging services(SMS and MMS), web browser, storage (SQLite), connectivity (GSM, CDMA, Blue Tooth, Wi-Fi etc.), media, handset layout etc.</string>
+    <string name="languages_used">Languages Used</string>
+    <string name="xml">XML</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="java">Java</string>
+    <string name="sql">SQL</string>
+
+    <string name="detailsweb">Web development is the act of building, creating and maintaining websites. The field encompasses a broad range of tasks including everything from coding, to technical design, to the performance of a website or application running on the internet. Web development consists of front-end and back-end components:
+
+FRONT-END WEB DEVELOPMENT VS. BACK-END WEB DEVELOPMENT
+Front-end development consists of the user interface (UI)
+        and the look and feel of the website or application.
+Back-end development consists of the databases, logic,
+        APIs, servers and everything else that powers the website behind the scenes.
+
+
+What Are the 3 Types of Web Development?
+There are three main types of web development: front-end, back-end and full-stack.
+Web development broadly encompasses the whole of a website\'s functionality,
+        but the work itself is often broken down into three types:
+Front-end development is responsible for the aspects of a website that users
+        see and interact with: the user interface (UI). Front-end developers
+        are well-versed in HTML, CSS and JavaScript, often working closely with design
+        and UX teams to capture both the intended look and feel of the site,
+        while also creating a quality user experience across multiple device types.
+
+Back-end development is responsible for all the aspects of a website that users do not see.
+        This is also known as server-side development because back-end developers focus primarily
+        on the behind-the-scenes logic, APIs and database interactions that power the site.
+
+Full-stack development is a more holistic approach where the developers responsible for the
+        site or app take care of the entire development stack, from the inner workings typically
+        performed on the back-end to the presentation layer normally handled by front-end developers.
+
+
+Web Development Explained in 10 Minutes. | Video: Aaron Jack
+FOOD FOR THOUGHT
+Front-End vs. Back-End Development: Which Should You Prioritize?
+
+
+
+What Does a Web Developer Do?
+Web developers develop websites, specifically by creating the site’s code,
+        connecting it to a server and maintaining its accessibility to users.
+
+Web development is responsible for creating the sites and applications we use
+        through a web browser in our day-to-day lives. Web developers, often working
+        in teams or alongside other tech professionals like data scientists, UX designers and
+        product managers, use specialized techniques and a thorough knowledge of one or more
+        programming languages to create a foundation for where the website’s database will live,
+        known as a back-end.
+
+The back-end is dependent upon the websites server, which stores web pages and
+        applications to be loaded into the web browser upon request.  The server
+        acts as an intermediary between the web page or application and the data stored
+        within the server, facilitating communication between the database and the client.
+
+Web developers are also responsible for creating the front-end of a website through
+        the use of HTML, CSS and JavaScript, which creates the layout and style that
+        the user sees and interacts with when using the site.
+
+Finally, web developers are responsible for maintaining the site's functionality
+        and overall performance over time.
+
+
+
+Is Web Development a Good Career?
+According to the latest U.S. Bureau of Labor Statistics, the average salary for a web
+        developer is $78,000, and positions are expected to grow 13 percent from 2020
+        to 2030, faster than the average for other occupations.
+
+The average salary of a web developer was $77,200, according to the latest U.S. Bureau
+        of Labor Statistics. Additionally, web developer jobs are expected to grow 13
+        percent from 2020 to 2030, faster than the average for other occupations.
+
+Web developers are in high demand. There are currently more than 5,000 front-end developer
+        jobs at nearly 2,000 companies nationwide on Built In's job board.</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "689228032247",
+    "project_id": "databaselecture-bc1ea",
+    "storage_bucket": "databaselecture-bc1ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689228032247:android:1c833e0dfa07bd584fcbf2",
+        "android_client_info": {
+          "package_name": "com.example.assignment16"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-TUMcMitW9J0Uh1j0FYBQ--E-Weh9I2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SPlashing screen</string>
+    <string name="logging_in">Logging In</string>
+    <string name="email">Email</string>
+    <string name="password">password</string>
+    <string name="press_to_enter">Press to enter</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+<View
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/baseline_assignment_returned_24"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="SignIn to Continue"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:hint="ENter Your Number to sign in"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:background="#72CAED"
+        android:drawableRight="@drawable/baseline_contact_phone_24"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/number"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Sign IN"
+        android:layout_gravity="center"
+        android:textSize="45sp"
+        android:id="@+id/signin"
+        />
+
+
+</LinearLayout>

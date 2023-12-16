@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="-220dp"
+        android:text="@string/welcome_sign_up_to_continue"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300dp"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/enter_your_mail_address"
+        android:minHeight="48dp"
+        android:textColor="@color/yellow"
+        android:textStyle="normal"
+        android:importantForAutofill="no" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:hint="@string/enter_your_name"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/yellow"-->
+<!--        android:textStyle="normal"-->
+<!--        android:importantForAutofill="no" />-->
+<!--       />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/password"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:hint="@string/enter_your_password"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/yellow"-->
+<!--        android:textStyle="normal"-->
+<!--        android:importantForAutofill="no" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/uniqueId"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:hint="@string/enter_your_uniqueid"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:textColor="@color/yellow"-->
+<!--        android:textStyle="normal"-->
+<!--        android:importantForAutofill="no" />-->
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/yellow"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/sign_up"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

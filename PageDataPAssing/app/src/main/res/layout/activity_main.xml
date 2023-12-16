@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Devesh's Cafe"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/teal_200"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Order 1"
+        android:id="@+id/item1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Order 2"
+        android:id="@+id/item2"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Order 3"
+        android:id="@+id/item3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Order 4"
+        android:id="@+id/item4"
+        />
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:text="Order Now"
+        android:textSize="30sp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/purple_200"
+        android:id="@+id/butn"/>
+
+
+</LinearLayout>
