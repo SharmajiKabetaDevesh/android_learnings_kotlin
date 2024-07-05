@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1010897072848",
+    "project_id": "shree-ramji",
+    "storage_bucket": "shree-ramji.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010897072848:android:5a43029b9817dab1e164d5",
+        "android_client_info": {
+          "package_name": "com.example.trial1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL2Z3EQVTvAQ9MNuMRVXJ9S58P3O0bZWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
